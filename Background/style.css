@@ -1,0 +1,51 @@
+body{
+    /* background-color: #303030; */
+
+
+    /* background: linear-gradient(#303030, #72a89d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  */
+
+    /* background: linear-gradient(to top ,#303030, #72a89d);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+
+    /* background: linear-gradient(to left ,#303030, #72a89d);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+
+    /* background: linear-gradient(to right ,#303030, #72a89d);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+
+    background-image: url("background.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    /* font color and font family */
+    color: rgb(109, 231, 156);
+    font-family: Righteous ,Georgia, 'Times New Roman', Times, serif;
+
+    /* border */
+    /* border-style: dashed; */
+    border-left-style: double;
+    border-left-width: 15px;
+    padding-left: 10px;
+    
+}
+
+p{
+    /* font color and font family */
+    color: rgb(230, 230, 230);
+    font-family: Rajdhani ,Georgia, 'Times New Roman', Times, serif;
+
+    /* border */
+    border-style: ridge ;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}

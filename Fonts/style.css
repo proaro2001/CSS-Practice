@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-family:"Delicious Handrawn" ;
+    /* 
+        This is achieved by going to Google Font
+        Selete the font and copy the link 
+        and link it to the head tag
+    */
+}
+p{
+    color: rgb(117, 245, 139);
+    font-family:"Delicious Handrawn","consolas",sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    text-decoration: cyan wavy underline; 
+    /* it could be wavy / dotted / just underline */
+
+    font-size: 18px;
+}

@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient( rgb(145, 83, 196), red) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#sasukeIntro{
+    background-color: purple;
+    color: aliceblue;
+}
+#itachiIntro{
+    background-color: red;
+    color: aliceblue;
+}
+
+img{
+    /* float: left; */
+    /* float:right; */
+    float: inline-start;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    font-size: 40px;
+    text-align: center;
+    background: yellowgreen;
+
+    /* float: left; */
+    float: right;
+}
+
+p{
+    /* these two clear the float and 
+    not floating on its left or right */
+    /* clear: left; */
+    /* clear: right; */
+    clear: both;
+}
